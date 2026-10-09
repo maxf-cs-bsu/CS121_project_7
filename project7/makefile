@@ -8,7 +8,7 @@ address.o: address.cpp address.h
 	g++ -g -c address.cpp
 
 run: studentData
-	./studentData
+	./a.out
 
 clean:
 	rm studentData

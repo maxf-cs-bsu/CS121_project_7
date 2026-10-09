@@ -5,16 +5,15 @@
 #include <string>
 
 class Address {
-  protected
+  protected:
     std::string street;
     std::string city;
     std::string state;
     std::string zipCode;
-  public
+  public:
     Address();
-    ~Address();
-    void init(street, city, state, zipCode);
+    void init(std::string street, std::string city, std::string state, std::string zipCode);
     void printAddress();
-}
+};
 
 #endif
