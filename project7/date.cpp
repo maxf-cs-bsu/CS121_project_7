@@ -28,6 +28,6 @@ void Date::init(std::string dateString){
 } // end of init
 
 void Date::printDate(){
-  std::string monthNames[] ={"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; // TEMP. FILL OUT LATER.
+  std::string monthNames[] ={"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
   std::cout << monthNames[month - 1] << " " << day << ", " << year << std::endl; 
 } // end of printDate
