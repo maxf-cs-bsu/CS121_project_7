@@ -1,5 +1,5 @@
 studentData: main.o address.o date.o
-	g++ -g main.o address.o -o studentData
+	g++ -g main.o address.o date.o -o studentData
 
 main.o: main.cpp address.h date.h
 	g++ -g -c main.cpp
